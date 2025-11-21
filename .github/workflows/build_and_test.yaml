@@ -25,7 +25,7 @@ jobs:
       coverage_deploy_token: ${{ secrets.SA_GITHUB_PAT }}
     with:
       runner: ${{ inputs.runner || 'ubuntu-22.04' }}
-      artifact_deploy_target_repo: EVerest/everest.github.io
+      artifact_deploy_target_repo: project-lookout/everest.github.io
       run_coverage: false
       do_not_run_coverage_badge_creation: true
       run_install_wheels: true
